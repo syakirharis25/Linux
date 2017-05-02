@@ -7,3 +7,9 @@ touch <filename> : create a new file
 pwd : show current path working directory
 mkdir <directoryname> : create new directory folder
 cd <directoryname> : change to the specified directory
+
+cat > <filename> : create and insert text into the new file
+ctrl-d : exit from file
+cat <filename> : show the content of the specified file
+cat < <filename>  : take the content from the specified file and show it on the screen
+cat <filename1> <filename2> > <filename3>  : merge the contents of filename1 and filename2 into filename3

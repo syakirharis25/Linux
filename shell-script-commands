@@ -20,3 +20,12 @@ rm : remove filename
 mkdir : make new directoryfilename
 rm -r : remove everything recursively in the directoryfilename
 rmdir : remove directoryfilename
+
+cp <filename1> <directoryfilename1>/<filename2> : copy filename1 into directoryfilename with the new name as filename2, did not replace or delete the filenaname1 unlike the mv command
+
+clear : clear the linux terminal
+ctrl-l : clear the linux terminal
+
+ln <filename1> <filename2> : create hard link for filename1 with filename2, if either one of the contents inside the file changed, both contents will change, nothing will effect if either file deleted from the system
+
+ln -s <filename1> <filename2> : create soft link, reference or pointer between filename1 and filename2, if filename1 deleted, the filename2 cannot be open since it depends, addressed, pointed to the filename1

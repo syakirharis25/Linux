@@ -29,3 +29,13 @@ ctrl-l : clear the linux terminal
 ln <filename1> <filename2> : create hard link for filename1 with filename2, if either one of the contents inside the file changed, both contents will change, nothing will effect if either file deleted from the system
 
 ln -s <filename1> <filename2> : create soft link, reference or pointer between filename1 and filename2, if filename1 deleted, the filename2 cannot be open since it depends, addressed, pointed to the filename1
+
+
+ls <directoryfilename> : list and show what is within directoryfilename
+ls : list and show what is within current path working directory
+ls -l : long listing what is within current path working directory with number of memory blocks occupied by all the files and folders combined together, and also show the permission for each files.
+
+* a block is basically a unit of memory that is used for memory organization by UNIX/Linux operating system
+
+ctrl-h : show hidden files
+ls -a : list and show all the files included the hidden (starting from .) hidden files

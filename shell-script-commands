@@ -1,15 +1,22 @@
 cal : show calendar
-cal <int month> <int year> : show calendar in certain month
-cal <str month> <int year> : show calendar in certain month
+cal  : show calendar in certain month
+cal  : show calendar in certain month
 date : show curent date
 
-touch <filename> : create a new filename
+touch : create a new filename
 pwd : show current path working directory
-mkdir <directoryname> : create new directoryname folder
-cd <directoryname> : change to the directoryname
+mkdir : create new directoryname folder
+cd : change to the directoryname
 
-cat > <filename> : create and insert text into the new filename
+cat > : create and insert text into the new filename
 ctrl-d : exit from file
-cat <filename> : show the content of the filename
-cat < <filename>  : take the content from the filename and show it on the screen
-cat <filename1> <filename2> > <filename3>  : merge the contents of filename1 and filename2 into filename3
+cat : show the content of the filename
+cat <  : take the content from the filename and show it on the screen
+cat >  : merge the contents of filename1 and filename2 into filename3
+
+mv : move filename1 into filename2, delete the filename1 after finish moving into filename2
+
+rm : remove filename
+mkdir : make new directoryfilename
+rm -r : remove everything recursively in the directoryfilename
+rmdir : remove directoryfilename

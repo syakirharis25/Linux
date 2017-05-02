@@ -3,13 +3,13 @@ cal <int month> <int year> : show calendar in certain month
 cal <str month> <int year> : show calendar in certain month
 date : show curent date
 
-touch <filename> : create a new file
+touch <filename> : create a new filename
 pwd : show current path working directory
-mkdir <directoryname> : create new directory folder
-cd <directoryname> : change to the specified directory
+mkdir <directoryname> : create new directoryname folder
+cd <directoryname> : change to the directoryname
 
-cat > <filename> : create and insert text into the new file
+cat > <filename> : create and insert text into the new filename
 ctrl-d : exit from file
-cat <filename> : show the content of the specified file
-cat < <filename>  : take the content from the specified file and show it on the screen
+cat <filename> : show the content of the filename
+cat < <filename>  : take the content from the filename and show it on the screen
 cat <filename1> <filename2> > <filename3>  : merge the contents of filename1 and filename2 into filename3

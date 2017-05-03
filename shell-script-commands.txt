@@ -98,3 +98,5 @@ wc -c <filename> : count the characters in filename
 
 sort : sort the input from user
 sort <filename> : sort the text in filename in alphabetical order
+
+cut -d"<delimiterused>" -f"<numberoffield>" <filename> : cut the text in filename and only left the numberoffield

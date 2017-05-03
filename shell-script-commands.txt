@@ -60,7 +60,7 @@ uname : unix name, shows the name of operating system used
 uname -a : unix name, shows all the information about the system
 
 adduser <username> : add username to the system
-userdel <username> : delete user from the system
+userdel <username> : delete username from the system
 
 cat /etc/passwd : show the content of user password and other related information
 

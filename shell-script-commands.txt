@@ -58,3 +58,31 @@ whoami : show who is currently log into the system
 
 uname : unix name, shows the name of operating system used
 uname -a : unix name, shows all the information about the system
+
+adduser <username> : add username to the system
+userdel <username> : delete user from the system
+
+cat /etc/passwd : show the content of user password and other related information
+
+passwd <username> : change the password for the username
+
+groupadd <groupname> : add new groupname from system
+groupdel <groupname> : delete groupname from system
+
+adduser <username> <groupname> : add username into groupname
+deluser <username> <groupname> : delete username from groupname
+
+vim /etc/group : show contents of existing groups in vim editor
+
+chmod <permission number> <filename> -R : change the permission mode for the filename recursively
+chmod <permission number> <directoryfilename> -R : change the permission mode for the directoryfilename recursively including all its subfolders
+chmod <permission number> <directoryfilename> -r : change the permission mode for the directoryfilename recursively under the directoryfilename but not all of its subfolders
+
+* drwxrwxrwx
+* <directory><owner><group<others/all users>
+* <directory><(read)(write)(execute)><(read)(write)(execute)><(read)(write)(execute)>
+* <directory><(4)+(2)+(1)><(4)+(2)+(1)><(4)+(2)+(1)>
+* <directory><7><7><7>
+
+chown -R <username> <directoryfilename>   : change owner recursively for directoryfilename and all its subfolders
+chgrp -R <groupname> < directoryfilename> : change group recursively for directoryfilename and all its subfolders.

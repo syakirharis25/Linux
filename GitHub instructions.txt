@@ -7,5 +7,8 @@ git commit -m "First commit"
 $ git remote -v
 # Verifies the new remote URL
 
+$ git pull origin master
+# Pull the changes from the server to ensure the latest updates from the server
+
 $ git push origin master
 # Pushes the changes in your local repository up to the remote repository you specified as the origin

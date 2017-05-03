@@ -86,3 +86,12 @@ chmod <permission number> <directoryfilename> -r : change the permission mode fo
 
 chown -R <username> <directoryfilename>   : change owner recursively for directoryfilename and all its subfolders
 chgrp -R <groupname> < directoryfilename> : change group recursively for directoryfilename and all its subfolders.
+
+file * : list all files and its type
+
+wc <filename> : count the contents in filename
+* <number of lines> <number of words> <number of characters> <file name>
+
+wc -l <filename> : couunt the lines in filename
+wc -w <filename> : count the words in filename
+wc -c <filename> : count the characters in filename

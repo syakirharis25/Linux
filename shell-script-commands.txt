@@ -95,3 +95,6 @@ wc <filename> : count the contents in filename
 wc -l <filename> : couunt the lines in filename
 wc -w <filename> : count the words in filename
 wc -c <filename> : count the characters in filename
+
+sort : sort the input from user
+sort <filename> : sort the text in filename in alphabetical order

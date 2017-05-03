@@ -46,5 +46,3 @@ watch free -h : show all information of system memory in real time
 hostname : show the host name
 
 apt-get install <modulename> : get the modulename and install it into the system
-
-hahahaha

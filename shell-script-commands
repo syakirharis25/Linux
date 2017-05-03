@@ -1,35 +1,34 @@
 cal : show calendar
-cal  : show calendar in certain month
-cal  : show calendar in certain month
+cal  <int month> <int year> : show calendar in certain month
+cal  <str month> <int year> : show calendar in certain month
 date : show curent date
 
-touch : create a new filename
+touch <filename>  : create a new filename
 pwd : show current path working directory
-mkdir : create new directoryname folder
-cd : change to the directoryname
+mkdir <directoryfilename> : create new directoryfilename folder
+cd <directoryfilename> : change to the directoryfilename
 
-cat > : create and insert text into the new filename
+cat > <filename>  : create and insert text into the new filename
 ctrl-d : exit from file
-cat : show the content of the filename
-cat <  : take the content from the filename and show it on the screen
-cat >  : merge the contents of filename1 and filename2 into filename3
+cat <filename> : show the content of the filename
+cat < <filename> : take the content from the filename and show it on the screen
+cat <filename1> <filename2> > <filename3> : merge the contents of filename1 and filename2 into filename3
 
-mv : move filename1 into filename2, delete the filename1 after finish moving into filename2
+mv <filename1> <filename2> : move filename1 into filename2, delete the filename1 after finish moving into filename2
 
-rm : remove filename
-mkdir : make new directoryfilename
-rm -r : remove everything recursively in the directoryfilename
-rmdir : remove directoryfilename
+rm <filename> : remove filename
+mkdir <directoryfilename> : make new directoryfilename
+rm -r <directoryfilename> : remove everything recursively in the directoryfilename
+rmdir <directoryfilename> : remove directoryfilename
 
-cp <filename1> <directoryfilename1>/<filename2> : copy filename1 into directoryfilename with the new name as filename2, did not replace or delete the filenaname1 unlike the mv command
+cp <filename1> <directoryfilename>/ <filename2>: copy filename1 into directoryfilename with the new name as filename2, did not replace or delete the filenaname1 unlike the mv command
 
 clear : clear the linux terminal
 ctrl-l : clear the linux terminal
 
-ln <filename1> <filename2> : create hard link for filename1 with filename2, if either one of the contents inside the file changed, both contents will change, nothing will effect if either file deleted from the system
+ln <filename1> <filename2>: create hard link for filename1 with filename2, if either one of the contents inside the file changed, both contents will change, nothing will effect if either file deleted from the system
 
 ln -s <filename1> <filename2> : create soft link, reference or pointer between filename1 and filename2, if filename1 deleted, the filename2 cannot be open since it depends, addressed, pointed to the filename1
-
 
 ls <directoryfilename> : list and show what is within directoryfilename
 ls : list and show what is within current path working directory
@@ -39,3 +38,11 @@ ls -l : long listing what is within current path working directory with number o
 
 ctrl-h : show hidden files
 ls -a : list and show all the files included the hidden (starting from .) hidden files
+
+free : show all information of the system memory
+free -h : show all information of the system memory to be readable by human
+watch free -h : show all information of system memory in real time
+
+hostname : show the host name
+
+apt-get install <modulename> : get the modulename and install it into the system

@@ -46,3 +46,15 @@ watch free -h : show all information of system memory in real time
 hostname : show the host name
 
 apt-get install <modulename> : get the modulename and install it into the system
+
+chmod <numeric value> : change the permission of the file
+* read    | r = 4
+* write   | w = 2
+* execute | x = 1 
+
+* owner | group | all users
+
+whoami : show who is currently log into the system
+
+uname : unix name, shows the name of operating system used
+uname -a : unix name, shows all the information about the system

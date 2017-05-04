@@ -1,0 +1,3 @@
+Kernel / Operating System   : manages control of the machine and supervise the scheduling of various user programs.
+Shell / Command Interpreter : looks after communication between user and system itself.
+Utilities                   : perform specific tasks. 

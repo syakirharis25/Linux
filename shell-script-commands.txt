@@ -100,3 +100,22 @@ sort : sort the input from user
 sort <filename> : sort the text in filename in alphabetical order
 
 cut -d"<delimiterused>" -f"<numberoffield>" <filename> : cut the text in filename and only left the numberoffield
+
+dd if=<filename1> of=<filename2> conv=<format> : data definition which convert input filename1 into filename2 in certain format
+
+ls /dev  : list Linux drivers
+ls /proc : list Linux processes
+
+*gp     = globally print
+*g/re/p = globally print regular expression
+
+find -name <extension>         : find the list of files that ends with extension
+find -name <extension> -type d : find list of directories that ends with extension
+
+apt-get install tree : install Linux tree module into Linux machine
+
+tree : list the tree file diagram for the Linux file system
+
+apt-get install htop : install Linux htop module into Linux machine
+
+htop : shows what is going on the Linux machine in colour

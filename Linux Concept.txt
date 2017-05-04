@@ -1,0 +1,5 @@
+1. Everything is a file.
+2. Everything is a process.
+3. Every file is a text or data.
+4. Pipelines allow composition.
+5. The shell is your gateway to everything.

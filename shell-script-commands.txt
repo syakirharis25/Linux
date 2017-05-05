@@ -168,3 +168,5 @@ echo $#        : count the number of command line arguments
 
 expr <mathematicalexpression>      : calculate the mathematicalexpression
 echo expr <mathematicalexpression> : show the result of mathematicalexpression calculation
+
+echo 'echo <arithmetic> | bc' : show the result of arithmetic calculation in floating point arithmetic format

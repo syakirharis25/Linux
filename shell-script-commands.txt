@@ -184,5 +184,5 @@ tput lines                   : show current number position of columns on Linux 
 tput rows                    : show current number position of rows on Linux terminal
 tput cup <number1> <number2> : put the cursor on the columns <number1> and rows <number2> on Linux terminal
 
-echo $? : will output 0 if the command executed is successful, will output 1 if the command executed is unsuccessful
+echo $?      : will output 0 if the command executed is successful, will output 1 if the command executed is unsuccessful
 read <input> : read the input

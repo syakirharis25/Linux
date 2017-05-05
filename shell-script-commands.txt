@@ -179,3 +179,7 @@ echo "<text1> \b<text2>" : print text1, do backspace and print text2
 echo "\033[1m<text1>\033[0m" : print text1 in bold mode
 echo "\033[4m<text1>\033[0m" : print text1 in underline mode
 echo "\033[7m<text1>\033[0m" : print text1 in highlight mode
+
+tput lines                   : show current number position of columns on Linux terminal
+tput rows                    : show current number position of rows on Linux terminal
+tput cup <number1> <number2> : put the cursor on the columns <number1> and rows <number2> on Linux terminal

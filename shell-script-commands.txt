@@ -33,6 +33,24 @@ ln -s <filename1> <filename2> : create soft link, reference or pointer between f
 ls <directoryfilename> : list and show what is within directoryfilename
 ls : list and show what is within current path working directory
 ls -l : long listing what is within current path working directory with number of memory blocks occupied by all the files and folders combined together, and also show the permission for each files.
+ls -l <filename> : long listing for filename and the number of memory blocks occupied by all the files and folders combined together, and also show the permission for each files.
+ls -lh : long listing what is within current path working directory with number of memory blocks occupied by all the files and folders combined together, and also show the permission for each files in human readable format
+ls -lh <filename> : long listing for filename and number of memory blocks occupied by all the files and folders combined together, and also show the permission for each files in human readable format
+ls -s : show the size for the current directory
+ls -s * : show the size for the current directory and all its contents
+ls -sh : show the size for the current directory in human readable format
+ls -sh * : show the size for the current directory and all its contents in human readable format
+ls -s <filename> : show the size for filename
+ls -sh : show the size for filename in human readable format
+
+du : show the directories
+du -s : show the size of all directories
+du * : show all the directories within
+du -s * : show the size of all directories
+du -sh : show the size of all directories in human readable format
+du -sh * : show the size of all the directories within in human readable format
+
+ls -s <
 
 * a block is basically a unit of memory that is used for memory organization by UNIX/Linux operating system
 
@@ -119,3 +137,17 @@ tree : list the tree file diagram for the Linux file system
 apt-get install htop : install Linux htop module into Linux machine
 
 htop : shows what is going on the Linux machine in colour
+
+man <command> : show the manuals for the command
+
+apt-get install sysvbanner : install the Linux sysvbanner module into local machine
+
+banner <input> : show fancy test for input
+
+apt-get install ncompress : install Linux ncompress module into the machine
+
+compress -v <filename> : reduce the file size of filename into filename.Z
+
+zcat <filename.Z> : show the contents of filename.Z
+
+uncompress <filename.Z> : uncompress the filename.Z into filename with its original size and contents

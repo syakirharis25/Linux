@@ -170,3 +170,12 @@ expr <mathematicalexpression>      : calculate the mathematicalexpression
 echo expr <mathematicalexpression> : show the result of mathematicalexpression calculation
 
 echo 'echo <arithmetic> | bc' : show the result of arithmetic calculation in floating point arithmetic format
+
+echo "<text1> \r<text2>" : consider text1 as rubbish, useless, only print text2
+echo "<text1> \t<text2>" : print text1, tab and print text2
+echo "<text1> \n<text2>" : print text1, make new line and print text2
+echo "<text1> \b<text2>" : print text1, do backspace and print text2
+
+echo "\033[1m<text1>\033[0m" : print text1 in bold mode
+echo "\033[4m<text1>\033[0m" : print text1 in underline mode
+echo "\033[7m<text1>\033[0m" : print text1 in highlight mode

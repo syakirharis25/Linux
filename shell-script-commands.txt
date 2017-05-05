@@ -166,5 +166,5 @@ echo $<number> : show the positional parameters of certain input
 echo $*        : show all positional parameters of the input
 echo $#        : count the number of command line arguments
 
-expr <mathematicalexpression>     : do mathematical expression
-echo expr <mathematicalexpression : show the result of mathematical expression
+expr <mathematicalexpression>      : calculate the mathematicalexpression
+echo expr <mathematicalexpression> : show the result of mathematicalexpression calculation

@@ -160,3 +160,8 @@ echo ~                  : show the current user
 echo $(<mathoperation>) : show the result of current mathoperation, answer will ignore the floating point
 
 sh <filename.sh> : execute filename.sh shell script
+
+set <input>    : set positional parameters for input
+echo $<number> : show the positional parameters of certain input
+echo $*        : show all positional parameters of the input
+echo $#        : count the number of command line arguments 

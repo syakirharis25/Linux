@@ -151,3 +151,12 @@ compress -v <filename> : reduce the file size of filename into filename.Z
 zcat <filename.Z> : show the contents of filename.Z
 
 uncompress <filename.Z> : uncompress the filename.Z into filename with its original size and contents
+
+echo *                  : show all the files in the current working path
+echo <string>*          : show all the files that start with the string
+echo *<string>          : show all the files that end with the string
+echo [[:upper]]         : show all the files that start with uppercase letter
+echo ~                  : show the current user
+echo $(<mathoperation>) : show the result of current mathoperation, answer will ignore the floating point
+
+sh <filename.sh> : execute filename.sh shell script

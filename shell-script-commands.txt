@@ -228,4 +228,4 @@ if [ `echo $<variable> | wc -c` <logicaloperation> <number> ] : word counts the 
 
 *Linux also count end of line as a character
 
-if [ $<variable> = <character1> -o $<variable> <character2>] : check if the variable is equal to character1 or proceed to check if the variable is equal to character2
+if [ $<variable> = <character1> -o $<variable> <character2> ] : check if the variable is equal to character1 or proceed to check if the variable is equal to character2

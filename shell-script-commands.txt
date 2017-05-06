@@ -12,7 +12,8 @@ cat > <filename>  : create and insert text into the new filename
 ctrl-d : exit from file
 cat <filename> : show the content of the filename
 cat < <filename> : take the content from the filename and show it on the screen
-cat <filename1> <filename2> > <filename3> : merge the contents of filename1 and filename2 into filename3
+cat <filename1> <filename2> > <filename3> : merge the contents of filename1 and filename2 into filename3\
+cat >> $<variable> : append the user input into the variable
 
 mv <filename1> <filename2> : move filename1 into filename2, delete the filename1 after finish moving into filename2
 
@@ -207,3 +208,11 @@ ne <number> : not equals to number
 -w $<variable> : check for write permission
 -x $<variable> : check for execute permission
 -s $<variable> : check for file size
+
+chmod -r <filename> : take away read permission from filename
+chmod -w <filename> : take away write permission from filename
+chmod -x <filename> : take away execute permission from filename
+
+chmod +r <filename> : give filename read permission
+chmod +w <filename> : give filename write permission
+chmod +x <filename> : give filename execute permission

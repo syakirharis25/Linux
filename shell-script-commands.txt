@@ -229,3 +229,15 @@ if [ `echo $<variable> | wc -c` <logicaloperation> <number> ] : word counts the 
 *Linux also count end of line as a character
 
 if [ $<variable> = <character1> -o $<variable> <character2> ] : check if the variable is equal to character1 or proceed to check if the variable is equal to character2
+
+case $<variable> in : check user case statement in the variable
+
+[a-z])              : check user case statement whether it is from a to z lowercase character
+[A-Z])              : check user case statement whether it is from A to Z uppercase character
+[0-9])              : check user case statement whether it is from 0 to 9 character
+?)                  : check user case statement whether it is a special case symbol
+*)                  : check user case statement whether it is more than one character
+[aeiou]* | [AEIOU]* : check user case statement whether it starts from a vowel
+
+;;   : break from the user case
+esac : exit from user case statement

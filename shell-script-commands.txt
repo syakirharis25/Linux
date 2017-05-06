@@ -216,3 +216,8 @@ chmod -x <filename> : take away execute permission from filename
 chmod +r <filename> : give filename read permission
 chmod +w <filename> : give filename write permission
 chmod +x <filename> : give filename execute permission
+
+[ "$<variable1>" = "$<variable2>"  ] : check if variable1 is equals to variable2
+[ "$<variable1>" != "$<variable2>" ] : check if variable1 is not equals to variable2
+[ -n "$<variable>" ]                 : check if variable got a value number
+[ -z "$<variable>" ]                 : check if variable is zero

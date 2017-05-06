@@ -225,3 +225,7 @@ chmod +x <filename> : give filename execute permission
 if [ <statement1> -a <statement2> ] : check if statement1 and statement2 are true
 
 if [ `echo $<variable> | wc -c` <logicaloperation> <number> ] : word counts the characters in the variable to match the logical operation and the number
+
+*Linux also count end of line as a character
+
+if [ $<variable> = <character1> -o $<variable> <character2>] : check if the variable is equal to character1 or proceed to check if the variable is equal to character2

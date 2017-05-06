@@ -241,3 +241,12 @@ case $<variable> in : check user case statement in the variable
 
 ;;   : break from the user case
 esac : exit from user case statement
+
+while [ $<variable> <logicaloperator> <number> ] : do while statement for the variable that fit with the logical operation based on number and logical operator
+until [ $<variable> <logicaloperator> <number> ] : do until statement for the variable that fit with the logical operation based on number and logical operator
+
+for item in * : search all files in Linux current path working directory
+
+do   : enter the loop statement
+done : exit from the loop statement
+then : execute the following statement

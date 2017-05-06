@@ -198,3 +198,12 @@ eq <number> : equals the number
 le <number> : less and equals to number
 ge <number> : greater and equals to number
 ne <number> : not equals to number
+
+-f $<variable> : check for files
+-d $<variable> : check for directory files
+-c $<variable> : check for character files
+-b $<variable> : check for block files
+-r $<variable> : check for read permission
+-w $<variable> : check for write permission
+-x $<variable> : check for execute permission
+-s $<variable> : check for file size

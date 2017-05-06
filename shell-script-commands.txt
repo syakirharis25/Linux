@@ -193,12 +193,12 @@ else <statement> : else execute statement
 elif <statement> : else if execute statement
 fi <statement>   : end if statement
 
-lt <number> : less the number
-gt <number> : greater than number
-eq <number> : equals the number
-le <number> : less and equals to number
-ge <number> : greater and equals to number
-ne <number> : not equals to number
+-lt <number> : less the number
+-gt <number> : greater than number
+-eq <number> : equals the number
+-le <number> : less and equals to number
+-ge <number> : greater and equals to number
+-ne <number> : not equals to number
 
 -f $<variable> : check for files
 -d $<variable> : check for directory files

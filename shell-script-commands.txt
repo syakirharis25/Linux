@@ -186,3 +186,15 @@ tput cup <number1> <number2> : put the cursor on the columns <number1> and rows 
 
 echo $?      : will output 0 if the command executed is successful, will output 1 if the command executed is unsuccessful
 read <input> : read the input
+
+if <statement>   : if execute statement
+else <statement> : else execute statement
+elif <statement> : else if execute statement
+fi <statement>   : end if statement
+
+lt <number> : less the number
+gt <number> : greater than number
+eq <number> : equals the number
+le <number> : less and equals to number
+ge <number> : greater and equals to number
+ne <number> : not equals to number

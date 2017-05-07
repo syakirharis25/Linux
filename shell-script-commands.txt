@@ -280,3 +280,9 @@ history : show history of the Linux terminal commands
 
 sed 's<delimiter><text1><delimiter><text2>' <oldfile> > <newfile>             : replace the text1 with text2 from oldfile to newfile
 sed 's<delimiter><text1><delimiter><text2><delimiter>g' <oldfile> > <newfile> : replace the text1 with text2 from oldfile to newfile globally
+
+cat /etc/passwd : show the password storage contents in the Linux system
+
+* <username>:<password>:<userid>:<commentsfield>:<homefolder>:<defaultshell>
+
+IFS=<userinput> : set the Internal Field Separator with userinput

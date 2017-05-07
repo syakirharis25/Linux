@@ -286,3 +286,9 @@ cat /etc/passwd : show the password storage contents in the Linux system
 * <username>:<password>:<userid>:<commentsfield>:<homefolder>:<defaultshell>
 
 IFS=<userinput> : set the Internal Field Separator with userinput
+
+tty : command that contain information about Linux terminal
+
+read <variable> : read from variable by line
+
+sleep <number> : sleep the execution of command for number seconds

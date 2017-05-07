@@ -250,3 +250,33 @@ for item in * : search all files in Linux current path working directory
 do   : enter the loop statement
 done : exit from the loop statement
 then : execute the following statement
+
+for item in * : search all files in Linux current path directory
+
+grep <text> <textfile> : search the text in textfile
+
+-i : case insensitive
+-n : show the line number
+-c : count
+
+-v <text> <textfile> : show the line in textfile that do not match the text
+
+grep ^'<text>' <textfile> : show text that is at the start of the lines in the textfile
+grep '<text>'^ <textfile> : show text that is at the end of the lines in the textfile
+grep $'<text>' <textfile> : search word that starts with the text in the textfile
+grep $'<text>' <textfile> : search word that ends with the text in the textfile
+
+grep 'th..' <textfile> : search for word that have th and any two more other characters on it in the textfile
+
+grep '[0-9]\{<number1>,<number2>}' <textfile> : search for number 0 till number 9 for the number1 and number2 digit in the textfile
+
+grep '\<<text>\>' <textfile> : search for specific text in the textfile
+
+!! : run the previous command
+-e : escape, take the next command as a pattern
+-n : show number of lines
+
+history : show history of the Linux terminal commands
+
+sed 's<delimiter><text1><delimiter><text2>' <oldfile> > <newfile>             : replace the text1 with text2 from oldfile to newfile
+sed 's<delimiter><text1><delimiter><text2><delimiter>g' <oldfile> > <newfile> : replace the text1 with text2 from oldfile to newfile globally

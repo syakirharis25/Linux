@@ -292,3 +292,5 @@ tty : command that contain information about Linux terminal
 read <variable> : read from variable by line
 
 sleep <number> : sleep the execution of command for number seconds
+
+man <command> >> <filename> : store the manual for command into filename

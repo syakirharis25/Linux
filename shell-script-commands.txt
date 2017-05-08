@@ -302,3 +302,9 @@ continue : skip the current statement and then continue the loop
 
 grep <command1> && <command2> : execute command2 if command1 is successful
 grep <command1> || <command2> : execute command2 even though command1 is unsuccessful
+
+chmod +x <functionscript> : give the functionshellscript an executable permission
+
+. <functionsehellscript> : execute the functionshellscript
+
+unset <function> : remove the function from the shells command

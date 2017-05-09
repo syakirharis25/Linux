@@ -51,8 +51,6 @@ du -s * : show the size of all directories
 du -sh : show the size of all directories in human readable format
 du -sh * : show the size of all the directories within in human readable format
 
-ls -s <
-
 * a block is basically a unit of memory that is used for memory organization by UNIX/Linux operating system
 
 ctrl-h : show hidden files

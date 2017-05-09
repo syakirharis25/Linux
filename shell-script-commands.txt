@@ -12,7 +12,7 @@ cat > <filename>  : create and insert text into the new filename
 ctrl-d : exit from file
 cat <filename> : show the content of the filename
 cat < <filename> : take the content from the filename and show it on the screen
-cat <filename1> <filename2> > <filename3> : merge the contents of filename1 and filename2 into filename3\
+cat <filename1> <filename2> > <filename3> : merge the contents of filename1 and filename2 into filename3
 cat >> $<variable> : append the user input into the variable
 
 mv <filename1> <filename2> : move filename1 into filename2, delete the filename1 after finish moving into filename2

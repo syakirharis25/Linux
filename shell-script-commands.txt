@@ -109,7 +109,7 @@ file * : list all files and its type
 wc <filename> : count the contents in filename
 * <number of lines> <number of words> <number of characters> <file name>
 
-wc -l <filename> : couunt the lines in filename
+wc -l <filename> : count the lines in filename
 wc -w <filename> : count the words in filename
 wc -c <filename> : count the characters in filename
 

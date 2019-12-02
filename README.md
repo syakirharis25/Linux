@@ -26,6 +26,8 @@ Debian official website : https://www.debian.org <br />
 Kali official website : https://www.kali.org <br />
 Parrot official website : https://parrotlinux.org/ <br />
 
+Linux operating system was created by Linux Torvalds : https://github.com/torvalds
+
 <a name="github"></a>
 ## GitHub notes
 Initialize repository, adding GitHub remote repository and check the remote repository

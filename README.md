@@ -21,10 +21,10 @@ A Linux distribution (often abbreviated as distro) is an operating system made f
 The Linux Foundation official website : https://www.linuxfoundation.org
 
 **_Linux Distros_**
-Ubuntu official website : https://ubuntu.com
-Debian official website : https://www.debian.org
-Kali official website : https://www.kali.org
-Parrot official website : https://parrotlinux.org/
+Ubuntu official website : https://ubuntu.com <br />
+Debian official website : https://www.debian.org <br />
+Kali official website : https://www.kali.org <br />
+Parrot official website : https://parrotlinux.org/ <br />
 
 <a name="github"></a>
 ## GitHub notes

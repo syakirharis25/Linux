@@ -16,3 +16,8 @@ $ git remote add origin https://github.com/syakirharis25/Linux.git
 $ git remote -v
 $ git status
 ```
+If there is a message 
+Please move or remove them before you merge.
+Aborting
+
+Then do this commands.

@@ -12,7 +12,7 @@ My works related to Linux operating system.
 Initialize repository, adding GitHub remote repository and check the remote repository
 ```
 $ git init
-$ git remote add origin 
+$ git remote add origin https://github.com/syakirharis25/Linux.git
 $ git remote -v
 $ git status
 ```

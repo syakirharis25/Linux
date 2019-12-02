@@ -20,7 +20,7 @@ A Linux distribution (often abbreviated as distro) is an operating system made f
 ## Official websites
 The Linux Foundation official website : https://www.linuxfoundation.org
 
-**_Linux Distros_**
+**_Linux Distros_** <br />
 Ubuntu official website : https://ubuntu.com <br />
 Debian official website : https://www.debian.org <br />
 Kali official website : https://www.kali.org <br />

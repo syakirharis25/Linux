@@ -2,11 +2,27 @@ My works related to Linux operating system.
 
 ## Table of Contents
 1. [Introduction.](#introduction)
+2. [Official websites.](#websites)
 2. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## Introduction
 <img src="Linux-Foundation.jpg" height="150">
+Linux is the largest and most pervasive open source software project in history. It has seen massive acceptance in almost every sector, including financial services, government, education, and even film production. Linux is also the operating system of choice to support cutting-edge technologies such as the Internet of Things, cloud computing, and big data.
+
+The Linux Foundation and its projects have more than 1,000 corporate members across the Americas, Asia-Pacific, and EMEA, including companies that are leaders in the strategic use of open source. A few include AT&T, Cisco, Fujitsu, Hitachi, Huawei, IBM, Intel, Microsoft, NEC, Oracle, Qualcomm, and Samsung.
+
+A Linux distribution (often abbreviated as distro) is an operating system made from a software collection, which is based upon the Linux kernel and, often, a package management system. Linux users usually obtain their operating system by downloading one of the Linux distributions, which are available for a wide variety of systems ranging from embedded devices and personal computers  to powerful supercomputers.
+
+<a name="github"></a>
+## Official websites
+The Linux Foundation official website : https://www.linuxfoundation.org
+
+**_Linux Distros_**
+Ubuntu official website : https://ubuntu.com
+Debian official website : https://www.debian.org
+Kali official website : https://www.kali.org
+Parrot official website : https://parrotlinux.org/
 
 <a name="github"></a>
 ## GitHub notes

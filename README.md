@@ -89,6 +89,10 @@ $ sudo apt-get install emacs
 $ emacs --version
 ```
 
+**_keyboard meanings_**
+<Return> = [Enter]
+M-x = meta + x = [Esc] + [X]
+
 <a name="permissions"></a>
 ## 8. Linux permissions
 

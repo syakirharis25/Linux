@@ -5,9 +5,10 @@ My works related to Linux operating system.
 2. [Official websites.](#websites)
 3. [Oracle VM VirtualBox display configuration.](#virtualbox)
 4. [VMware Workstation 15 Player display configuration](#vmware)
-5. [Bash script.](#bash)
-6. [Linux permissions.](#permissions)
-7. [GitHub notes.](#github)
+5. [Linux terminal](#terminal)
+6. [Bash script.](#bash)
+7. [Linux permissions.](#permissions)
+8. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## Introduction
@@ -56,6 +57,17 @@ $ sudo apt-get install open-vm-tools
 $ sudo apt-get install open-vm-tools-desktop
 ```
 Restart the VMware virtual machine to view the desired effect.
+
+<a name="terminal"></a>
+## Linux terminal
+Terminal is just a mechanism to transfer information. For the operating system to understand the information, a shell is needed. A shell in Linux is a program that interprets the commands you enter in a terminal window, so the operating system can understand what you want to do.
+
+There are many shell programs, such as Bash, Zsh, Csh, Ksh etc. Bash is the default shell on most Linux distributions. When you open a terminal window, a Bash shell is automatically started. To check which shell you are using now, run the following command.
+```
+$ echo $0
+```
+
+To make the text in terminal bigger, press **[Ctrl]** + **[Shift]** + **[+]** on your keyboard. To make the text in the terminal smaller, press **[Ctrl]** + **[-]** on your keyboard. To make the terminal transparent, right hand click on your mouse, click `Preferences`, on the menu shown, click `Colors` beside the `Text` on top of the menu shown, tick `Use transparent background`, and then move the scrollbar beside it to choose your desired transparency for your terminal.
 
 <a name="bash"></a>
 ## Bash script

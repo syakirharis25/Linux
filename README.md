@@ -4,6 +4,7 @@ My works related to Linux operating system.
 1. [Introduction.](#introduction)
 2. [Official websites.](#websites)
 3. [Oracle VM VirtualBox display configuration.](#virtualbox)
+4. [VMware Workstation 15 Player display configuration](#vmware)
 4. [Bash script.](#bash)
 5. [GitHub notes.](#github)
 
@@ -41,6 +42,19 @@ Oracle VM VirtualBox (formerly Sun VirtualBox, Sun xVM VirtualBox and Innotek Vi
 VirtualBox is free and open source virtualization software from Oracle. It enables you to install other operating systems like Linux operating system in virtual machines. It is recommended that your system should have at least 4GB of RAM to get decent performance from the virtual operating system.
 
 By default the graphic controller setting in Oracle VM VirtualBox is set to VMSVGA, this caused the system to operate very slow especially if you are using Microsoft Windows 10. To fix this press **[Ctrl]** + **[S]** on your keyboard, then click on the Display on the right of the VirtualBox user interface, and then under the Graphics Controller drop down list, select **[VBoxVGA]** and start the Linux virtual machine to check back the performance of the machine. Tick the box beside Acceleration to Enable 3D Acceleration. Pause the antivirus when using the VirtualBox.
+
+<a name="vmware"></a>
+## VMware Workstation 15 Player display configuration
+VMware Workstation is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems, it enables users to set up virtual machines (VMs) on a single physical machine, and use them simultaneously along with the actual machine. Each virtual machine can execute its own operating system, including versions of Microsoft Windows, Linux, BSD, and MS-DOS. VMware Workstation is developed and sold by VMware, Inc., a division of Dell Technologies. VMware Workstation supports bridging existing host network adapters and sharing physical disk drives and USB devices with a virtual machine. It can simulate disk drives; an ISO image file can be mounted as a virtual optical disc drive, and virtual hard disk drives are implemented as .vmdk files.
+
+To switch between VMware virtual machine and the local machine, press **[Ctrl]** + **[Alt]**.
+
+To view the VMware virtual machine in full mode, do this commands.
+```
+$ sudo apt-get install open-vm-tools
+$ sudo apt-get install open-vm-tools-desktop
+```
+Restart the VMware virtual machine to view the desired effect.
 
 <a name="bash"></a>
 ## Bash script

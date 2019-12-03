@@ -66,7 +66,7 @@ Essentially a process is a running instance of a program. When we are at the ter
 <a name="permissions"></a>
 ## Linux permissions
 
-<img src="linux-permission-diagram.jpg" height="200"> 
+<img src="linux-permission-denied.png" height="200"> 
 
 Every file and directory in Linux system has following 3 permissions.
 
@@ -88,7 +88,7 @@ Every file and directory in Linux system has following 3 permissions.
 – A dash (–) symbol in place of a character in a permission set indicates that a particular permission is denied. <br />
 – Linux assigns initial permissions automatically when a new file or directory is created.
  
- <img src="linux-permission-denied.png" height="400"> 
+<img src="linux-permission-diagram.jpg" height="400"> 
 
 <a name="github"></a>
 ## GitHub notes

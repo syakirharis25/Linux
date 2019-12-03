@@ -60,7 +60,7 @@ Restart the VMware virtual machine to view the desired effect.
 
 <a name="terminal"></a>
 ## Linux terminal
-Terminal is just a mechanism to transfer information. For the operating system to understand the information, a shell is needed. A shell in Linux is a program that interprets the commands you enter in a terminal window, so the operating system can understand what you want to do.
+Terminal is just a mechanism to transfer information. For the operating system to understand the information, a shell is needed. A shell in Linux is a program that interprets the commands you enter in a terminal window, so the operating system can understand what you want to do. To open the terminal simply press **[Ctrl]** + **[Alt]** + **[T]** on your keyboard.
 
 There are many shell programs, such as Bash, Zsh, Csh, Ksh etc. Bash is the default shell on most Linux distributions. When you open a terminal window, a Bash shell is automatically started. To check which shell you are using now, run the following command.
 ```

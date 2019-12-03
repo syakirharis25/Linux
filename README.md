@@ -73,6 +73,16 @@ Every file and directory in Linux system has following 3 permissions.
 
 **Execute** : In Windows, an executable program usually has an extension ".exe" and which you can easily run. In Unix/Linux, you cannot run a program unless the execute permission is set. If the execute permission is not set, you might still be able to see/modify the program code(provided read & write permissions are set), but not run it.
 
+**_Permission Set_**
+– Each permission group has three permissions, called a permission set.
+– Each set consists of read, write, and execute permissions.
+– Each file or directory has three permission sets for the three types of permission groups.
+– The first permission set represents the owner permissions, the second set represents the group permissions, and the last set represents the other permissions.
+– The read, write, and execute permissions are represented by the characters r, w, and x, respectively.
+– The presence of any of these characters, such as r, indicates that the particular permission is granted.
+– A dash (–) symbol in place of a character in a permission set indicates that a particular permission is denied.
+– Linux assigns initial permissions automatically when a new file or directory is created.
+
 <a name="github"></a>
 ## GitHub notes
 Initialize repository, adding GitHub remote repository and check the remote repository

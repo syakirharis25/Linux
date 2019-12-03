@@ -7,11 +7,12 @@ My works related to Linux operating system.
 4. [VMware Workstation 15 Player display configuration](#vmware)
 5. [Linux terminal](#terminal)
 6. [Bash script.](#bash)
-7. [Linux permissions.](#permissions)
-8. [GitHub notes.](#github)
+7. [Emacs text editor](#emacs)
+8. [Linux permissions.](#permissions)
+9. [GitHub notes.](#github)
 
 <a name="introduction"></a>
-## Introduction
+## 1. Introduction
 <img src="Linux-Foundation.jpg" height="150">
 Linux is the largest and most pervasive open source software project in history. It has seen massive acceptance in almost every sector, including financial services, government, education, and even film production. Linux is also the operating system of choice to support cutting-edge technologies such as the Internet of Things, cloud computing, and big data.
 
@@ -22,7 +23,7 @@ Linux began in 1991 as a personal project of Linus Torvalds while studying compu
 A Linux distribution (often abbreviated as distro) is an operating system made from a software collection, which is based upon the Linux kernel and, often, a package management system. Linux users usually obtain their operating system by downloading one of the Linux distributions, which are available for a wide variety of systems ranging from embedded devices and personal computers  to powerful supercomputers.
 
 <a name="github"></a>
-## Official websites
+## 2. Official websites
 The Linux Foundation official website : https://www.linuxfoundation.org
 
 **_Linux Distros_** <br />
@@ -38,7 +39,7 @@ VMWare official website : https://www.vmware.com
 Linux operating system was created by Linux Torvalds : https://github.com/torvalds
 
 <a name="virtualbox"></a>
-## Oracle VM VirtualBox display configuration
+## 3. Oracle VM VirtualBox display configuration
 Oracle VM VirtualBox (formerly Sun VirtualBox, Sun xVM VirtualBox and Innotek VirtualBox) is a free and open-source hosted hypervisor for x86 virtualization, developed by Oracle Corporation. Created by Innotek GmbH, it was acquired by Sun Microsystems in 2008, which was, in turn, acquired by Oracle in 2010.
 
 VirtualBox is free and open source virtualization software from Oracle. It enables you to install other operating systems like Linux operating system in virtual machines. It is recommended that your system should have at least 4GB of RAM to get decent performance from the virtual operating system.
@@ -46,7 +47,7 @@ VirtualBox is free and open source virtualization software from Oracle. It enabl
 By default the graphic controller setting in Oracle VM VirtualBox is set to VMSVGA, this caused the system to operate very slow especially if you are using Microsoft Windows 10. To fix this press **[Ctrl]** + **[S]** on your keyboard, then click on the Display on the right of the VirtualBox user interface, and then under the Graphics Controller drop down list, select **[VBoxVGA]** and start the Linux virtual machine to check back the performance of the machine. Tick the box beside Acceleration to Enable 3D Acceleration. Pause the antivirus when using the VirtualBox.
 
 <a name="vmware"></a>
-## VMware Workstation 15 Player display configuration
+## 4. VMware Workstation 15 Player display configuration
 VMware Workstation is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems, it enables users to set up virtual machines (VMs) on a single physical machine, and use them simultaneously along with the actual machine. Each virtual machine can execute its own operating system, including versions of Microsoft Windows, Linux, BSD, and MS-DOS. VMware Workstation is developed and sold by VMware, Inc., a division of Dell Technologies. VMware Workstation supports bridging existing host network adapters and sharing physical disk drives and USB devices with a virtual machine. It can simulate disk drives; an ISO image file can be mounted as a virtual optical disc drive, and virtual hard disk drives are implemented as .vmdk files.
 
 To switch between VMware virtual machine and the local machine, press **[Ctrl]** + **[Alt]**.
@@ -59,7 +60,7 @@ $ sudo apt-get install open-vm-tools-desktop
 Restart the VMware virtual machine to view the desired effect.
 
 <a name="terminal"></a>
-## Linux terminal
+## 5. Linux terminal
 Terminal is just a mechanism to transfer information. For the operating system to understand the information, a shell is needed. A shell in Linux is a program that interprets the commands you enter in a terminal window, so the operating system can understand what you want to do. To open the terminal simply press **[Ctrl]** + **[Alt]** + **[T]** on your keyboard.
 
 There are many shell programs, such as Bash, Zsh, Csh, Ksh etc. Bash is the default shell on most Linux distributions. When you open a terminal window, a Bash shell is automatically started. To check which shell you are using now, run the following command.
@@ -70,13 +71,16 @@ $ echo $0
 To make the text in terminal bigger, press **[Ctrl]** + **[Shift]** + **[+]** on your keyboard. To make the text in the terminal smaller, press **[Ctrl]** + **[-]** on your keyboard. To make the terminal transparent, right hand click on your mouse, click `Preferences`, on the menu shown, click `Colors` beside the `Text` on top of the menu shown, tick `Use transparent background`, and then move the scrollbar beside it to choose your desired transparency for your terminal.
 
 <a name="bash"></a>
-## Bash script
+## 6. Bash script
 In the realm of Linux (and computers in general) we have the concept of programs and processes. A program is a blob of binary data consisting of a series of instructions for the CPU and possibly other resources (images, sound files and such) organised into a package and typically stored on your hard disk. When we say we are running a program we are not really running the program but a copy of it which is called a process. What we do is copy those instructions and resources from the hard disk into working memory (or RAM). We also allocate a bit of space in RAM for the process to store variables (to hold temporary working data) and a few flags to allow the operating system (OS) to manage and track the process during it's execution.
 
 Essentially a process is a running instance of a program. When we are at the terminal we have a Bash process running in order to give us the Bash shell. If we start a script running it doesn't actually run in that process but instead starts a new process to run inside.A Bash script is a plain text file which contains a series of commands.
 
+<a name="emacs"></a>
+## 7. Emacs text editor
+
 <a name="permissions"></a>
-## Linux permissions
+## 8. Linux permissions
 
 <img src="linux-permission-denied.png" height="200"> 
 
@@ -103,7 +107,7 @@ Every file and directory in Linux system has following 3 permissions.
 <img src="linux-permission-diagram.jpg" height="300"> 
 
 <a name="github"></a>
-## GitHub notes
+## 9. GitHub notes
 Initialize repository, adding GitHub remote repository and check the remote repository
 ```
 $ git init

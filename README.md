@@ -7,7 +7,7 @@ My works related to Linux operating system.
 4. [VMware Workstation 15 Player display configuration](#vmware)
 5. [Linux terminal](#terminal)
 6. [Bash script.](#bash)
-7. [Emacs text editor](#emacs)
+7. [Emacs text editor.](#emacs)
 8. [Linux permissions.](#permissions)
 9. [GitHub notes.](#github)
 

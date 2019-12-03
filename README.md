@@ -83,6 +83,8 @@ Every file and directory in Linux system has following 3 permissions.
 – A dash (–) symbol in place of a character in a permission set indicates that a particular permission is denied. <br />
 – Linux assigns initial permissions automatically when a new file or directory is created.
 
+<img src="linux-permission-numbers.png" height="150">
+
 <a name="github"></a>
 ## GitHub notes
 Initialize repository, adding GitHub remote repository and check the remote repository

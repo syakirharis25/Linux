@@ -3,7 +3,7 @@ My works related to Linux operating system.
 ## Table of Contents
 1. [Introduction.](#introduction)
 2. [Official websites.](#websites)
-3. [Oracle VM VirtualBox settings.](#virtualbox)
+3. [Oracle VM VirtualBox display configuration.](#virtualbox)
 4. [Bash script.](#bash)
 5. [GitHub notes.](#github)
 
@@ -33,7 +33,7 @@ Oracle VM VirtualBox official website : https://www.virtualbox.org
 Linux operating system was created by Linux Torvalds : https://github.com/torvalds
 
 <a name="virtualbox"></a>
-## Oracle VM VirtualBox settings
+## Oracle VM VirtualBox display configuration
 Oracle VM VirtualBox (formerly Sun VirtualBox, Sun xVM VirtualBox and Innotek VirtualBox) is a free and open-source hosted hypervisor for x86 virtualization, developed by Oracle Corporation. Created by Innotek GmbH, it was acquired by Sun Microsystems in 2008, which was, in turn, acquired by Oracle in 2010.
 
 VirtualBox is free and open source virtualization software from Oracle. It enables you to install other operating systems like Linux operating system in virtual machines. It is recommended that your system should have at least 4GB of RAM to get decent performance from the virtual operating system.

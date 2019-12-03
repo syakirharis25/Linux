@@ -65,6 +65,9 @@ Essentially a process is a running instance of a program. When we are at the ter
 
 <a name="permissions"></a>
 ## Linux permissions
+
+<img src="linux-permission-diagram.jpg" height="200"> 
+
 Every file and directory in Linux system has following 3 permissions.
 
 **Read** : This permission give you the authority to open and read a file. Read permission on a directory gives you the ability to lists its content.
@@ -84,10 +87,8 @@ Every file and directory in Linux system has following 3 permissions.
 – The presence of any of these characters, such as r, indicates that the particular permission is granted. <br />
 – A dash (–) symbol in place of a character in a permission set indicates that a particular permission is denied. <br />
 – Linux assigns initial permissions automatically when a new file or directory is created.
-
- <img src="linux-permission-diagram.jpg" height="200"> 
  
- <img src="linux-permission-denied.png" height="200"> 
+ <img src="linux-permission-denied.png" height="400"> 
 
 <a name="github"></a>
 ## GitHub notes

@@ -5,8 +5,9 @@ My works related to Linux operating system.
 2. [Official websites.](#websites)
 3. [Oracle VM VirtualBox display configuration.](#virtualbox)
 4. [VMware Workstation 15 Player display configuration](#vmware)
-4. [Bash script.](#bash)
-5. [GitHub notes.](#github)
+5. [Bash script.](#bash)
+6. [Linux permissions.](#permissions)
+7. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## Introduction
@@ -61,6 +62,16 @@ Restart the VMware virtual machine to view the desired effect.
 In the realm of Linux (and computers in general) we have the concept of programs and processes. A program is a blob of binary data consisting of a series of instructions for the CPU and possibly other resources (images, sound files and such) organised into a package and typically stored on your hard disk. When we say we are running a program we are not really running the program but a copy of it which is called a process. What we do is copy those instructions and resources from the hard disk into working memory (or RAM). We also allocate a bit of space in RAM for the process to store variables (to hold temporary working data) and a few flags to allow the operating system (OS) to manage and track the process during it's execution.
 
 Essentially a process is a running instance of a program. When we are at the terminal we have a Bash process running in order to give us the Bash shell. If we start a script running it doesn't actually run in that process but instead starts a new process to run inside.A Bash script is a plain text file which contains a series of commands.
+
+<a name="permissions"></a>
+## Linux permissions
+Every file and directory in Linux system has following 3 permissions.
+
+**Read** : This permission give you the authority to open and read a file. Read permission on a directory gives you the ability to lists its content.
+
+**Write** : The write permission gives you the authority to modify the contents of a file. The write permission on a directory gives you the authority to add, remove and rename files stored in the directory. Consider a scenario where you have to write permission on file but do not have write permission on the directory where the file is stored. You will be able to modify the file contents. But you will not be able to rename, move or remove the file from the directory.
+
+**Execute** : In Windows, an executable program usually has an extension ".exe" and which you can easily run. In Unix/Linux, you cannot run a program unless the execute permission is set. If the execute permission is not set, you might still be able to see/modify the program code(provided read & write permissions are set), but not run it.
 
 <a name="github"></a>
 ## GitHub notes

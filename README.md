@@ -90,7 +90,7 @@ $ emacs --version
 ```
 
 **_keyboard meanings_** <br />
-<Return> = [Enter] <br />
+/<Return/> = [Enter] <br />
 M-x = meta + x = [Esc] + [X]
 
 <a name="permissions"></a>

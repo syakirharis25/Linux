@@ -3,8 +3,9 @@ My works related to Linux operating system.
 ## Table of Contents
 1. [Introduction.](#introduction)
 2. [Official websites.](#websites)
-3. [Bash script.](#bash)
-4. [GitHub notes.](#github)
+3. [Oracle VM VirtualBox settings.](#virtualbox)
+4. [Bash script.](#bash)
+5. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## Introduction
@@ -30,6 +31,14 @@ Parrot official website : https://parrotlinux.org/ <br />
 Oracle VM VirtualBox official website : https://www.virtualbox.org
 
 Linux operating system was created by Linux Torvalds : https://github.com/torvalds
+
+<a name="virtualbox"></a>
+## Oracle VM VirtualBox settings
+Oracle VM VirtualBox (formerly Sun VirtualBox, Sun xVM VirtualBox and Innotek VirtualBox) is a free and open-source hosted hypervisor for x86 virtualization, developed by Oracle Corporation. Created by Innotek GmbH, it was acquired by Sun Microsystems in 2008, which was, in turn, acquired by Oracle in 2010.
+
+VirtualBox is free and open source virtualization software from Oracle. It enables you to install other operating systems like Linux operating system in virtual machines. It is recommended that your system should have at least 4GB of RAM to get decent performance from the virtual operating system.
+
+By default the default graphic controller setting in Oracle VM VirtualBox is set to VMSVGA, this caused the system to operate very slow especially if you are using Microsoft Windows 10. To fix this press **[Ctrl]** + **[S]** on your keyboard, then click on the Display on the right of the VirtualBox user interface, and then under the Graphics Controller drop down list, select **[VBoxVGA]** and start the Linux virtual machine to check back the performance of the machine.
 
 <a name="bash"></a>
 ## Bash script

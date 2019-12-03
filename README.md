@@ -78,6 +78,16 @@ Essentially a process is a running instance of a program. When we are at the ter
 
 <a name="emacs"></a>
 ## 7. Emacs text editor
+Emacs is primarily a text editor and is designed for manipulating pieces of text, although it is capable of formatting and printing documents like a word processor by interfacing with external programs such as LaTeX, Ghostscript or a web browser. Emacs provides commands to manipulate and differentially display semantic units of text such as words, sentences, paragraphs and source code constructs such as functions. It also features keyboard macros for performing user-defined batches of editing commands.
+
+GNU Emacs is a real-time display editor, as its edits are displayed onscreen as they occur. This is standard behavior for modern text editors but EMACS was among the earliest to implement this functionality instead of having to issue a separate command to insert new edits into the existing text as in vi.
+
+To install the latest stable version of Emacs for Linux Ubuntu, do this commands.
+```
+$ sudo apt-get update
+$ sudo apt-get install emacs
+$ emacs --version
+```
 
 <a name="permissions"></a>
 ## 8. Linux permissions

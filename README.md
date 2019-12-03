@@ -2,8 +2,8 @@ My works related to Linux operating system.
 
 ## Table of Contents
 1. [Introduction.](#introduction)
-2. [Bash script.](#bash)
-3. [Official websites.](#websites)
+2. [Official websites.](#websites)
+3. [Bash script.](#bash)
 4. [GitHub notes.](#github)
 
 <a name="introduction"></a>

@@ -89,8 +89,8 @@ $ sudo apt-get install emacs
 $ emacs --version
 ```
 
-**_keyboard meanings_**
-<Return> = [Enter]
+**_keyboard meanings_** ,br />
+<Return> = [Enter] <br />
 M-x = meta + x = [Esc] + [X]
 
 <a name="permissions"></a>

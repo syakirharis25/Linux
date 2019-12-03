@@ -41,7 +41,7 @@ Oracle VM VirtualBox (formerly Sun VirtualBox, Sun xVM VirtualBox and Innotek Vi
 
 VirtualBox is free and open source virtualization software from Oracle. It enables you to install other operating systems like Linux operating system in virtual machines. It is recommended that your system should have at least 4GB of RAM to get decent performance from the virtual operating system.
 
-By default the graphic controller setting in Oracle VM VirtualBox is set to VMSVGA, this caused the system to operate very slow especially if you are using Microsoft Windows 10. To fix this press `Ctrl` + `S` on your keyboard, then click on the Display on the right of the VirtualBox user interface, and then under the Graphics Controller drop down list, select **[VBoxVGA]** and start the Linux virtual machine to check back the performance of the machine. Tick the box beside Acceleration to Enable 3D Acceleration. Pause the antivirus when using the VirtualBox.
+By default the graphic controller setting in Oracle VM VirtualBox is set to VMSVGA, this caused the system to operate very slow especially if you are using Microsoft Windows 10. To fix this press **[Ctrl]** + **[S]** on your keyboard, then click on the Display on the right of the VirtualBox user interface, and then under the Graphics Controller drop down list, select **[VBoxVGA]** and start the Linux virtual machine to check back the performance of the machine. Tick the box beside Acceleration to Enable 3D Acceleration. Pause the antivirus when using the VirtualBox.
 
 <a name="vmware"></a>
 ## VMware Workstation 15 Player display configuration

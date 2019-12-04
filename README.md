@@ -89,6 +89,11 @@ $ sudo apt-get install emacs
 $ emacs --version
 ```
 
+To check whether emacs already installed in the Linux machine, do this command.
+```
+apt policy emacs
+```
+
 **_keyboard meanings_** <br />
 \<Return> = [Enter] <br />
 M-x = meta + x = [Esc] + [X]

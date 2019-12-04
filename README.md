@@ -9,7 +9,8 @@ My works related to Linux operating system.
 6. [Bash script.](#bash)
 7. [Emacs text editor.](#emacs)
 8. [Linux permissions.](#permissions)
-9. [GitHub notes.](#github)
+9. [Taking screenshot.](#screenshot)
+10. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## 1. Introduction
@@ -127,8 +128,12 @@ Every file and directory in Linux system has following 3 permissions.
  
 <img src="linux-permission-diagram.jpg" height="300"> 
 
+<a name="screenshot"></a>
+## Taking screenshot
+Press **[PrtSc]** on your keyboard to take full entire screenshot of the Linux system, press **[Shift]** + **[PrtSc]** to take the partial screenshot of the Linux system, **[Alt]** + **[PrtSc]**
+
 <a name="github"></a>
-## 9. GitHub notes
+## 10. GitHub notes
 Initialize repository, adding GitHub remote repository and check the remote repository
 ```
 $ git init

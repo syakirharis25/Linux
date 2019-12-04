@@ -129,8 +129,10 @@ Every file and directory in Linux system has following 3 permissions.
 <img src="linux-permission-diagram.jpg" height="300"> 
 
 <a name="screenshot"></a>
-## Taking screenshot
-Press **[PrtSc]** on your keyboard to take full entire screenshot of the Linux system, press **[Shift]** + **[PrtSc]** to take the partial screenshot of the Linux system, **[Alt]** + **[PrtSc]**
+## 9. Taking screenshot
+Press **[PrtSc]** on your keyboard to take full entire screenshot of the Linux system, press **[Shift]** + **[PrtSc]** and drag the mouse to take the partial screenshot of the Linux system, press **[Alt]** + **[PrtSc]** to take the particular window screenshot.
+
+All the screenshots are stored inside `/root/Pictures/` folder.
 
 <a name="github"></a>
 ## 10. GitHub notes

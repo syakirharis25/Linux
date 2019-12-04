@@ -98,6 +98,8 @@ apt policy emacs
 \<Return> = [Enter] <br />
 M-x = meta + x = [Esc] + [X]
 
+Emacs was created by by Richard Stallman and his team in MIT Computer Science and Artificial Intelligence Laboratory : https://github.com/richardmstallman
+
 <a name="permissions"></a>
 ## 8. Linux permissions
 

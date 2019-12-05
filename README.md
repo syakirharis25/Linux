@@ -10,7 +10,8 @@ My works related to Linux operating system.
 7. [Emacs text editor.](#emacs)
 8. [Linux permissions.](#permissions)
 9. [Taking screenshot.](#screenshot)
-10. [GitHub notes.](#github)
+10. [Searching file.](#locate)
+11. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## 1. Introduction
@@ -134,8 +135,16 @@ Press **[PrtSc]** on your keyboard to take full entire screenshot of the Linux s
 
 All the screenshots are stored inside `/root/Pictures/` folder.
 
+<a name="locate"></a>
+## 10. Searching file
+To find, searching for file in Linux machine, first we need to update the database and then use the locate command. It will take some time to update the database, wait until it finish and then proceed to locate command.
+``
+$ updatedb
+$ locate filename.txt
+```
+
 <a name="github"></a>
-## 10. GitHub notes
+## 11. GitHub notes
 Initialize repository, adding GitHub remote repository and check the remote repository
 ```
 $ git init

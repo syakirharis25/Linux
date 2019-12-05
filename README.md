@@ -138,7 +138,7 @@ All the screenshots are stored inside `/root/Pictures/` folder.
 <a name="locate"></a>
 ## 10. Searching file
 To find, searching for file in Linux machine, first we need to update the database and then use the locate command. It will take some time to update the database, wait until it finish and then proceed to locate command.
-``
+```
 $ updatedb
 $ locate filename.txt
 ```

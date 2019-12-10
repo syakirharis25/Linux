@@ -5,13 +5,14 @@ My works related to Linux operating system.
 2. [Official websites.](#websites)
 3. [Oracle VM VirtualBox display configuration.](#virtualbox)
 4. [VMware Workstation 15 Player display configuration](#vmware)
-5. [Linux terminal](#terminal)
-6. [Bash script.](#bash)
-7. [Emacs text editor.](#emacs)
-8. [Linux permissions.](#permissions)
-9. [Taking screenshot.](#screenshot)
-10. [Searching file.](#locate)
-11. [GitHub notes.](#github)
+5. [Linux terminal.](#terminal)
+6. [Linux Standard Base.](#base)
+7. [Bash script.](#bash)
+8. [Emacs text editor.](#emacs)
+9. [Linux permissions.](#permissions)
+10. [Taking screenshot.](#screenshot)
+11. [Searching file.](#locate)
+12. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## 1. Introduction
@@ -72,14 +73,21 @@ $ echo $0
 
 To make the text in terminal bigger, press **[Ctrl]** + **[Shift]** + **[+]** on your keyboard. To make the text in the terminal smaller, press **[Ctrl]** + **[-]** on your keyboard. To make the terminal transparent, right hand click on your mouse, click `Preferences`, on the menu shown, click `Colors` beside the `Text` on top of the menu shown, tick `Use transparent background`, and then move the scrollbar beside it to choose your desired transparency for your terminal.
 
+<a name="base"></a>
+## 6. Linux Standard Base
+The lsb_release command prints certain LSB (Linux Standard Base) and Distribution information.
+```
+$ lsb_release -a
+```
+
 <a name="bash"></a>
-## 6. Bash script
+## 7. Bash script
 In the realm of Linux (and computers in general) we have the concept of programs and processes. A program is a blob of binary data consisting of a series of instructions for the CPU and possibly other resources (images, sound files and such) organised into a package and typically stored on your hard disk. When we say we are running a program we are not really running the program but a copy of it which is called a process. What we do is copy those instructions and resources from the hard disk into working memory (or RAM). We also allocate a bit of space in RAM for the process to store variables (to hold temporary working data) and a few flags to allow the operating system (OS) to manage and track the process during it's execution.
 
 Essentially a process is a running instance of a program. When we are at the terminal we have a Bash process running in order to give us the Bash shell. If we start a script running it doesn't actually run in that process but instead starts a new process to run inside.A Bash script is a plain text file which contains a series of commands.
 
 <a name="emacs"></a>
-## 7. Emacs text editor
+## 8. Emacs text editor
 Emacs is primarily a text editor and is designed for manipulating pieces of text, although it is capable of formatting and printing documents like a word processor by interfacing with external programs such as LaTeX, Ghostscript or a web browser. Emacs provides commands to manipulate and differentially display semantic units of text such as words, sentences, paragraphs and source code constructs such as functions. It also features keyboard macros for performing user-defined batches of editing commands.
 
 GNU Emacs is a real-time display editor, as its edits are displayed onscreen as they occur. This is standard behavior for modern text editors but EMACS was among the earliest to implement this functionality instead of having to issue a separate command to insert new edits into the existing text as in vi.
@@ -103,7 +111,7 @@ M-x = meta + x = [Esc] + [X]
 Emacs was created by by Richard Stallman and his team in MIT Computer Science and Artificial Intelligence Laboratory : https://github.com/richardmstallman
 
 <a name="permissions"></a>
-## 8. Linux permissions
+## 9. Linux permissions
 
 <img src="linux-permission-denied.png" height="200"> 
 
@@ -130,13 +138,13 @@ Every file and directory in Linux system has following 3 permissions.
 <img src="linux-permission-diagram.jpg" height="300"> 
 
 <a name="screenshot"></a>
-## 9. Taking screenshot
+## 10. Taking screenshot
 Press **[PrtSc]** on your keyboard to take full entire screenshot of the Linux system, press **[Shift]** + **[PrtSc]** and drag the mouse to take the partial screenshot of the Linux system, press **[Alt]** + **[PrtSc]** to take the particular window screenshot.
 
 All the screenshots are stored inside `/root/Pictures/` folder.
 
 <a name="locate"></a>
-## 10. Searching file
+## 11. Searching file
 To find, searching for file in Linux machine, first we need to update the database and then use the locate command. It will take some time to update the database, wait until it finish and then proceed to locate command.
 ```
 $ updatedb
@@ -144,7 +152,7 @@ $ locate filename.txt
 ```
 
 <a name="github"></a>
-## 11. GitHub notes
+## 12. GitHub notes
 Initialize repository, adding GitHub remote repository and check the remote repository
 ```
 $ git init

@@ -78,6 +78,7 @@ To make the text in terminal bigger, press **[Ctrl]** + **[Shift]** + **[+]** on
 The lsb_release command prints certain LSB (Linux Standard Base) and Distribution information.
 ```
 $ lsb_release -a
+$ cat /etc/*release*
 ```
 
 <a name="bash"></a>

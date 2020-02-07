@@ -27,7 +27,7 @@ A Linux distribution (often abbreviated as distro) is an operating system made f
 
 <a name="github"></a>
 ## 2. Official websites
-The Linux Foundation official website : https://www.linuxfoundation.org
+The Linux Foundation official website : https://www.linuxfoundation.org <br />
 
 **_Linux Distros_** <br />
 Ubuntu official website : https://ubuntu.com <br />
@@ -36,10 +36,10 @@ Kali official website : https://www.kali.org <br />
 Parrot official website : https://parrotlinux.org/ <br />
 
 **_virtual machines_**
-Oracle VM VirtualBox official website : https://www.virtualbox.org
-VMWare official website : https://www.vmware.com
+Oracle VM VirtualBox official website : https://www.virtualbox.org <br />
+VMWare official website : https://www.vmware.com <br />
 
-Linux operating system was created by Linux Torvalds : https://github.com/torvalds
+Linux operating system was created by Linux Torvalds : https://github.com/torvalds <br />
 
 <a name="virtualbox"></a>
 ## 3. Oracle VM VirtualBox display configuration

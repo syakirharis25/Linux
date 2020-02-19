@@ -13,6 +13,7 @@ My works related to Linux operating system.
 10. [Taking screenshot.](#screenshot)
 11. [Searching file.](#locate)
 12. [GitHub notes.](#github)
+13. [GitHub repository calculation.](#calculation)
 
 <a name="introduction"></a>
 ## 1. Introduction
@@ -171,3 +172,22 @@ $ git clean -d -f
 $ git pull origin master
 $ git status
 ```
+
+Clone the current GitHub remote repository contents into local machine.
+```
+$ git clone https://github.com/syakirharis25/Linux.git
+$ cd Linux/
+$ git remote -v
+$ git status
+```
+
+<a name="calculation"></a>
+## 13. GitHub repository calculation.
+```
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Markdown                         1             41              0            132
+-------------------------------------------------------------------------------
+```
+Refer to : https://github.com/syakirharis25/cloc

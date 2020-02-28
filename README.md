@@ -40,6 +40,9 @@ Parrot official website : https://parrotlinux.org/ <br />
 Oracle VM VirtualBox official website : https://www.virtualbox.org <br />
 VMWare official website : https://www.vmware.com <br />
 
+**_Linux related articles_**
+touch command in Linux with Examples by GeeksforGeeks : https://www.geeksforgeeks.org/touch-command-in-linux-with-examples/ <br />
+
 Linux operating system was created by Linux Torvalds : https://github.com/torvalds <br />
 
 <a name="virtualbox"></a>

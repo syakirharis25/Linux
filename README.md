@@ -3,17 +3,18 @@ My works related to Linux operating system.
 ## Table of Contents
 1. [Introduction.](#introduction)
 2. [Official websites.](#websites)
-3. [Oracle VM VirtualBox display configuration.](#virtualbox)
-4. [VMware Workstation 15 Player display configuration](#vmware)
-5. [Linux terminal.](#terminal)
-6. [Linux Standard Base.](#base)
-7. [Bash script.](#bash)
-8. [Emacs text editor.](#emacs)
-9. [Linux permissions.](#permissions)
-10. [Taking screenshot.](#screenshot)
-11. [Searching file.](#locate)
-12. [GitHub notes.](#github)
-13. [GitHub repository calculation.](#calculation)
+3. [Developers.](#developers)
+4. [Oracle VM VirtualBox display configuration.](#virtualbox)
+5. [VMware Workstation 15 Player display configuration](#vmware)
+6. [Linux terminal.](#terminal)
+7. [Linux Standard Base.](#base)
+8. [Bash script.](#bash)
+9. [Emacs text editor.](#emacs)
+10. [Linux permissions.](#permissions)
+11. [Taking screenshot.](#screenshot)
+12. [Searching file.](#locate)
+13. [GitHub notes.](#github)
+14. [GitHub repository calculation.](#calculation)
 
 <a name="introduction"></a>
 ## 1. Introduction
@@ -42,11 +43,15 @@ VMWare official website : https://www.vmware.com <br />
 
 **_Linux related articles_** <br />
 touch command in Linux with Examples by GeeksforGeeks : https://www.geeksforgeeks.org/touch-command-in-linux-with-examples/ <br />
+How to Use the rename Command on Linux by Dave McKay : https://www.howtogeek.com/423214/how-to-use-the-rename-command-on-linux/ <br />
 
+<a name="developers"></a>
+## 3. Developers
 Linux operating system was created by Linux Torvalds : https://github.com/torvalds <br />
+Dave McKay : https://twitter.com/TheGurkha <br />
 
 <a name="virtualbox"></a>
-## 3. Oracle VM VirtualBox display configuration
+## 4. Oracle VM VirtualBox display configuration
 Oracle VM VirtualBox (formerly Sun VirtualBox, Sun xVM VirtualBox and Innotek VirtualBox) is a free and open-source hosted hypervisor for x86 virtualization, developed by Oracle Corporation. Created by Innotek GmbH, it was acquired by Sun Microsystems in 2008, which was, in turn, acquired by Oracle in 2010.
 
 VirtualBox is free and open source virtualization software from Oracle. It enables you to install other operating systems like Linux operating system in virtual machines. It is recommended that your system should have at least 4GB of RAM to get decent performance from the virtual operating system.
@@ -54,7 +59,7 @@ VirtualBox is free and open source virtualization software from Oracle. It enabl
 By default the graphic controller setting in Oracle VM VirtualBox is set to VMSVGA, this caused the system to operate very slow especially if you are using Microsoft Windows 10. To fix this press **[Ctrl]** + **[S]** on your keyboard, then click on the Display on the right of the VirtualBox user interface, and then under the Graphics Controller drop down list, select **[VBoxVGA]** and start the Linux virtual machine to check back the performance of the machine. Tick the box beside Acceleration to Enable 3D Acceleration. Pause the antivirus when using the VirtualBox.
 
 <a name="vmware"></a>
-## 4. VMware Workstation 15 Player display configuration
+## 5. VMware Workstation 15 Player display configuration
 VMware Workstation is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems, it enables users to set up virtual machines (VMs) on a single physical machine, and use them simultaneously along with the actual machine. Each virtual machine can execute its own operating system, including versions of Microsoft Windows, Linux, BSD, and MS-DOS. VMware Workstation is developed and sold by VMware, Inc., a division of Dell Technologies. VMware Workstation supports bridging existing host network adapters and sharing physical disk drives and USB devices with a virtual machine. It can simulate disk drives; an ISO image file can be mounted as a virtual optical disc drive, and virtual hard disk drives are implemented as .vmdk files.
 
 To switch between VMware virtual machine and the local machine, press **[Ctrl]** + **[Alt]**.
@@ -67,7 +72,7 @@ $ sudo apt-get install open-vm-tools-desktop
 Restart the VMware virtual machine to view the desired effect.
 
 <a name="terminal"></a>
-## 5. Linux terminal
+## 6. Linux terminal
 Terminal is just a mechanism to transfer information. For the operating system to understand the information, a shell is needed. A shell in Linux is a program that interprets the commands you enter in a terminal window, so the operating system can understand what you want to do. To open the terminal simply press **[Ctrl]** + **[Alt]** + **[T]** on your keyboard.
 
 There are many shell programs, such as Bash, Zsh, Csh, Ksh etc. Bash is the default shell on most Linux distributions. When you open a terminal window, a Bash shell is automatically started. To check which shell you are using now, run the following command.
@@ -78,7 +83,7 @@ $ echo $0
 To make the text in terminal bigger, press **[Ctrl]** + **[Shift]** + **[+]** on your keyboard. To make the text in the terminal smaller, press **[Ctrl]** + **[-]** on your keyboard. To make the terminal transparent, right hand click on your mouse, click `Preferences`, on the menu shown, click `Colors` beside the `Text` on top of the menu shown, tick `Use transparent background`, and then move the scrollbar beside it to choose your desired transparency for your terminal.
 
 <a name="base"></a>
-## 6. Linux Standard Base
+## 7. Linux Standard Base
 The lsb_release command prints certain LSB (Linux Standard Base) and Distribution information.
 ```
 $ lsb_release -a
@@ -86,13 +91,13 @@ $ cat /etc/*release*
 ```
 
 <a name="bash"></a>
-## 7. Bash script
+## 8. Bash script
 In the realm of Linux (and computers in general) we have the concept of programs and processes. A program is a blob of binary data consisting of a series of instructions for the CPU and possibly other resources (images, sound files and such) organised into a package and typically stored on your hard disk. When we say we are running a program we are not really running the program but a copy of it which is called a process. What we do is copy those instructions and resources from the hard disk into working memory (or RAM). We also allocate a bit of space in RAM for the process to store variables (to hold temporary working data) and a few flags to allow the operating system (OS) to manage and track the process during it's execution.
 
 Essentially a process is a running instance of a program. When we are at the terminal we have a Bash process running in order to give us the Bash shell. If we start a script running it doesn't actually run in that process but instead starts a new process to run inside.A Bash script is a plain text file which contains a series of commands.
 
 <a name="emacs"></a>
-## 8. Emacs text editor
+## 9. Emacs text editor
 Emacs is primarily a text editor and is designed for manipulating pieces of text, although it is capable of formatting and printing documents like a word processor by interfacing with external programs such as LaTeX, Ghostscript or a web browser. Emacs provides commands to manipulate and differentially display semantic units of text such as words, sentences, paragraphs and source code constructs such as functions. It also features keyboard macros for performing user-defined batches of editing commands.
 
 GNU Emacs is a real-time display editor, as its edits are displayed onscreen as they occur. This is standard behavior for modern text editors but EMACS was among the earliest to implement this functionality instead of having to issue a separate command to insert new edits into the existing text as in vi.
@@ -116,7 +121,7 @@ M-x = meta + x = [Esc] + [X]
 Emacs was created by by Richard Stallman and his team in MIT Computer Science and Artificial Intelligence Laboratory : https://github.com/richardmstallman
 
 <a name="permissions"></a>
-## 9. Linux permissions
+## 10. Linux permissions
 
 <img src="linux-permission-denied.png" height="200"> 
 
@@ -143,13 +148,13 @@ Every file and directory in Linux system has following 3 permissions.
 <img src="linux-permission-diagram.jpg" height="300"> 
 
 <a name="screenshot"></a>
-## 10. Taking screenshot
+## 11. Taking screenshot
 Press **[PrtSc]** on your keyboard to take full entire screenshot of the Linux system, press **[Shift]** + **[PrtSc]** and drag the mouse to take the partial screenshot of the Linux system, press **[Alt]** + **[PrtSc]** to take the particular window screenshot.
 
 All the screenshots are stored inside `/root/Pictures/` folder.
 
 <a name="locate"></a>
-## 11. Searching file
+## 12. Searching file
 To find, searching for file in Linux machine, first we need to update the database and then use the locate command. It will take some time to update the database, wait until it finish and then proceed to locate command.
 ```
 $ updatedb
@@ -157,7 +162,7 @@ $ locate filename.txt
 ```
 
 <a name="github"></a>
-## 12. GitHub notes
+## 13. GitHub notes
 Initialize repository, adding GitHub remote repository and check the remote repository
 ```
 $ git init
@@ -185,7 +190,7 @@ $ git status
 ```
 
 <a name="calculation"></a>
-## 13. GitHub repository calculation.
+## 14. GitHub repository calculation.
 ```
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code

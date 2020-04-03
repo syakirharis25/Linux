@@ -44,6 +44,7 @@ VMWare official website : https://www.vmware.com <br />
 **_Linux related articles_** <br />
 touch command in Linux with Examples by GeeksforGeeks : https://www.geeksforgeeks.org/touch-command-in-linux-with-examples/ <br />
 How to Use the rename Command on Linux by Dave McKay : https://www.howtogeek.com/423214/how-to-use-the-rename-command-on-linux/ <br />
+id command in Linux by Linuxize : https://linuxize.com/post/id-command-in-linux/ <br />
 
 <a name="developers"></a>
 ## 3. Developers
